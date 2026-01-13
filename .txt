@@ -1,0 +1,11 @@
+The Challenge: The "Amazon Cart" Logic
+Scenario: You are building the backend for an e-commerce checkout. You have a cart (List of Dictionaries). You have a coupon_code (String).
+Requirements:
+1. Calculate Total: Sum up price * quantity for all items.
+2. Apply Coupon:
+If code is "VIDYA20", give 20% off.
+If code is anything else, give 0% off.
+3. Apply Tax: Add 18% GST on the discounted price.
+4. Shipping:
+If final total < 500, add 50 shipping.
+Otherwise, shipping is Free (0).
